@@ -2,8 +2,6 @@ import * as express from "express";
 import { soma, subtrair } from "../../repository/repository";
 
 export function Get(r : express.Request, w : express.Response) {
-        //  const result = soma(1,2)
-        //  w.send(result)
-        const su = subtrair(1,2)
-        w.send(su.toUpperCase())
+         const result = soma(1,2)
+         w.send(result)
         }
